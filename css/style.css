@@ -55,6 +55,8 @@ div, article, section, header, footer, nav, li {
 	content:".";
 	visibility:hidden; /* For clearing */
 }
+
+
 body {
 	background:#fff;
 	color: #444;
@@ -148,6 +150,7 @@ input, button, select, textarea {
 p {
 	line-height: 1.6em;
 	margin: 0 0 10px 0;
+    text-align: justify;
 }
 
 blockquote {
@@ -734,8 +737,9 @@ section#services h2 {
 section#services p {
 	margin:10px;
 }
-
-
+#services li:hover {
+     background-color:red;
+}
 section#services .service-box {
 	text-align: center;
 	padding: 20px;
@@ -745,7 +749,7 @@ section#services .service-box {
 	-ms-transition: all 0.3s ease-in-out;
 	transition: all 0.3s ease-in-out;
 }
-section#services .span3:hover {
+section#services a:hover {
 	background:#e3e3e3;
 }
 
