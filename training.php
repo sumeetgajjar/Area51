@@ -3,6 +3,7 @@ require('nav.php');
 ?>
 <html>
     <head>
+            <link href="css/servicesstyle.css" rel="stylesheet">
     </head>
 <body>
 <!-- navbar -->
@@ -18,7 +19,7 @@ require('nav.php');
 		<div class="span10 offset1">
 			<div>
 				<h2 align="center"><strong>BASIC FIRE FIGHTINING</strong></h2>
-<p><img src="img\icons\oilgasicon.png" alt="" align="left"/>When faced with extraordinary situations, anything can happen. With proper firefighting training and education, you will be able to make the right decisions in these emergency situations. Approximately 600 people die and over 4 000 are injured annually in South Africa as a result of fires, and these blazes cause more than R500 million in damages to properties every year. Action Training Academy’s firefighting training courses are aimed at teaching basic firefighting skills to minimise loss of life and property, by extinguishing fires in their early stages. The best method of stopping a fire is to prevent it. The actions taken to control a fire during the first few minutes will determine whether it can be contained or not. Minimise damage during fires by contacting us for expert firefighting training. Legislation requires that one in 50 people per company, or two people per building, be trained in basic firefighting. To ensure that there are more on-site fire safety experts available to reduce this statistic, Action Training Academy provides the following firefighting training:
+<p class="ex3"><img src="img\icons\oilgasicon.png" alt="" align="left"/>When faced with extraordinary situations, anything can happen. With proper firefighting training and education, you will be able to make the right decisions in these emergency situations. Approximately 600 people die and over 4 000 are injured annually in South Africa as a result of fires, and these blazes cause more than R500 million in damages to properties every year. Action Training Academy’s firefighting training courses are aimed at teaching basic firefighting skills to minimise loss of life and property, by extinguishing fires in their early stages. The best method of stopping a fire is to prevent it. The actions taken to control a fire during the first few minutes will determine whether it can be contained or not. Minimise damage during fires by contacting us for expert firefighting training. Legislation requires that one in 50 people per company, or two people per building, be trained in basic firefighting. To ensure that there are more on-site fire safety experts available to reduce this statistic, Action Training Academy provides the following firefighting training:
 
 Basic Fire Awareness Course – Every employee should be aware of how fires start, spread and are controlled. This course teaches general respect for fire and makes employees aware of fire risks in the workplace.
 

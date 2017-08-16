@@ -1,0 +1,27 @@
+body{   
+    
+    background-color: floralwhite ;
+ 
+}
+        p.ex1 {
+               
+            padding :  0cm 2cm;
+            font-size: 110%;
+            color: black;
+        }
+        h1.section green {
+           
+            padding: 2cm;
+            text-shadow: 2px 2px black;
+            font-size: 310%;
+    
+        }
+         p.ex3 {
+             
+            font-size: 90%;
+            color: black;    
+        }
+    
+        
+            
+}

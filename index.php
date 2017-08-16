@@ -70,45 +70,35 @@ require('nav.php');
 			<div class="people">
 				<img class="team-thumb img-circle" src="img\team\image1.jpg" alt="" />
 				<h3>Rachel Dsouza</h3>
-				<p>
 					Art director
-				</p>
 			</div>
 		</div>
 		<div class="span2 flyIn">
 			<div class="people">
 				<img class="team-thumb img-circle" src="img\team\image2.jpg" alt="" />
 				<h3>Mike Doe</h3>
-				<p>
 					Web developer
-				</p>
 			</div>
 		</div>
 		<div class="span2 flyIn">
 			<div class="people">
 				<img class="team-thumb img-circle" src="img\team\image3.jpg" alt="" />
-				<h3>Neil Doe</h3>
-				<p>
+                <h3>Neil Doe</h3>
 					Web designer
-				</p>
 			</div>
 		</div>
 		<div class="span2 flyIn">
 			<div class="people">
 				<img class="team-thumb img-circle" src="img\team\image4.jpg" alt="" />
 				<h3>Mark Joe</h3>
-				<p>
 					UI designer
-				</p>
 			</div>
 		</div>
 		<div class="span2 flyIn">
 			<div class="people">
 				<img class="team-thumb img-circle" src="img\team\image5.jpg" alt="" />
 				<h3>Stephen B</h3>
-				<p>
 					Digital imaging
-				</p>
 			</div>
 		</div>
 	</div>
@@ -185,7 +175,7 @@ require('nav.php');
 <!-- section: blog -->
 <section id="blog" class="section">
     <div class="container">
-        <h4>Our Blog <button class="b1" style="float: right;">+</button></h4>
+        <h4>Our Blog </h4>
        <!-- <a href="article.html"><button class="w3-button w3-xlarge w3-circle w3-teal" style="float:right;">+</button></a>-->
 	<!-- Three columns -->
 	<div class="row">

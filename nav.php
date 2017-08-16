@@ -31,7 +31,7 @@
 				<nav class="pull-right nav-collapse collapse">
 				<ul id="menu-main" class="nav">
 					<li><a title="about us" href="index.php#about">About</a></li>
-                    <li class="dropdown" id="services"><a title="services" class="dropdown-toggle" data-toggle="dropdown">Services</a>
+                    <li class="dropdown-submenu" id="services"><a title="services" class="dropdown-toggle" data-toggle="dropdown">Services</a>
                     <ul class="dropdown-menu">
 					<li class="dropdown-submenu"><a title="training" class="dropdown-toggle" data-toggle="dropdown">Training</a>
                         <ul class="dropdown-menu">
@@ -47,7 +47,7 @@
                         <li><a href="training.php#coc">Crane operator certication</a></li>
                         <li><a href="training.php#foc">Forklift operator certification</a></li>
                         <li><a href="training.php#sl">Safety Leadership</a></li>
-                    </ul>
+                        </ul>
                     </li>
                     <li><a title="Drop Survey" href="drop.php">Drop Survey</a></li>
                     <li><a title="Rig Inspection" href="rig.php">Rig Inspection</a></li>

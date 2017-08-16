@@ -3,11 +3,24 @@ require('nav.php');
 ?>
 <html>
 <head>
+        <link href="css/bootstrap-responsive.css" rel="stylesheet">
+<link href="previewcss.css" rel="stylesheet">
+<link href="css/style.css" rel="stylesheet">
+<link href="button.css" rel="stylesheet">
+<link href="css/dropdown.css" rel="stylesheet">
+<link href="color/default.css" rel="stylesheet">
+<link rel="shortcut icon" href="img/favicon.ico">
+<link rel="shortcut icon" href="../favicon.ico">
+       <link href="css/servicesstyle.css" rel="stylesheet">
 </head>
 <body>
-    <h1 align="center"><strong>Rig Inspection:</strong></h1>
+    <section id="basic" class="section green">
+        <div class="container">
+            <h1 align="center"><strong>Rig Inspection</strong></h1>
+        </div>
+    </section>
 
-<P>In order to ensure optimum performance of your rig, reduce down time and maintain safety of your personnel, planned maintenance and accurate inspections are essential.
+<P class="ex1"><img src="img/icons/riginspection.png" alt="" align="left"/>In order to ensure optimum performance of your rig, reduce down time and maintain safety of your personnel, planned maintenance and accurate inspections are essential.
     
     With a commitment to maintaining the standards of the oil and gas industry, we offer you cost-effective and professional services to ensure the safety and reliability of your operations. We can help you:
 
