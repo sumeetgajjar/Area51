@@ -14,7 +14,7 @@ require('nav.php');
     </section>
 <p class="ex1">
 
-<img src="img/icons/energyaudits.png" alt="" align="left"/>
+
 An energy audit is an inspection, survey and analysis of energy flows, for energy conservation in a building, process or system to reduce the amount of energy input into the system without negatively affecting the output(s). In commercial and industrial real estate, an energy audit is the first step in identifying opportunities to reduce energy expense and carbon footprints.
 When the object of study is an occupied building then reducing energy consumption while maintaining or improving human comfort, health and safety are of primary concern. Beyond simply identifying the sources of energy use, an energy audit seeks to prioritize the energy uses according to the greatest to least cost effective opportunities for energy savings.
 An energy audit of a home may involve recording various characteristics of the building envelope including the walls, ceilings, floors, doors, windows, and skylights. For each of these components the area and resistance to heat flow (R-value) is measured or estimated. The leakage rate or infiltration of air through the building envelope is of concern, both of which are strongly affected by window construction and quality of door seals such as weatherstripping. The goal of this exercise is to quantify the building's overall thermal performance. The audit may also assess the efficiency, physical condition, and programming of mechanical systems such as the heating, ventilation, air conditioning equipment, and thermostat.

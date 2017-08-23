@@ -1,27 +1,4 @@
-/*
-    Theme Name: Maxim
-    Theme URL: https://bootstrapmade.com/maxim-free-onepage-bootstrap-theme/
-    Author: BootstrapMade.com
-    Author URL: https://bootstrapmade.com
-*/
 
-/*
-===========================
-CONTENTS:
-
-01 General
-02 Typography
-03 Non-semantic
-04 Navbar
-05 Page sections
-06 Footer
-07 Icons
-08 Buttons
-09 Media queries 
-===========================
-*/
-/* Import css */
-/* Google font */
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700');
 /* bootstrap */
 @import url('bootstrap.css');
@@ -373,13 +350,7 @@ header .logo {
 }
 
 /* --- Header slider --- */
-#header-wrapper.header-slider {
-	background: #444 url(../img/bg/bg-1.jpg) no-repeat center center fixed;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: cover;
-}
+
 
 #main-flexslider ul.slides li p {
 	font-size: 72px;
@@ -448,7 +419,7 @@ header .logo {
 
 
 section.section {
-	padding: 100px 0 80px;
+	padding: 50px 0 80px;
 }
 section.section h4 {
 	text-align: center;
@@ -483,7 +454,7 @@ section.spacer {
 }
 
 .spacer.green,.section.green h4 {
-	color:#fff;
+	color:black;
 }
 
 .spacer.yellow,.section.yellow  {

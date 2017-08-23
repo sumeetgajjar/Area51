@@ -20,7 +20,7 @@ require('nav.php');
         </div>
     </section>
 
-<P class="ex1"><img src="img/icons/riginspection.png" alt="" align="left"/>In order to ensure optimum performance of your rig, reduce down time and maintain safety of your personnel, planned maintenance and accurate inspections are essential.
+<P class="ex1">In order to ensure optimum performance of your rig, reduce down time and maintain safety of your personnel, planned maintenance and accurate inspections are essential.
     
     With a commitment to maintaining the standards of the oil and gas industry, we offer you cost-effective and professional services to ensure the safety and reliability of your operations. We can help you:
 

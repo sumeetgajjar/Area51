@@ -11,9 +11,8 @@ require('nav.php');
      <h1 class="ex2" align="center"><strong>Drop survey:</strong></h1>
         </div>
     </section>
-  
-<P class="ex1"> 
-    <img src="img/icons/Drops1.png" alt="" align="left"/>We provide Drops survey to prevent potential dropping of objects in compliance with “DROPS” global initiative aimed at prevention of falling objects. We are proud of our involvement and are dedicated to working with the DROPS guidelines as a member company.
+    
+<P class="ex1">We provide Drops survey to prevent potential dropping of objects in compliance with “DROPS” global initiative aimed at prevention of falling objects. We are proud of our involvement and are dedicated to working with the DROPS guidelines as a member company.
 
 
 Our rope access technicians are seasoned drops surveyors with several years of experience in carrying out drop survey onboard onshore and offshore rigs. Offshore locations cover FPSOs, drill ships, semi-submersible and Jack-up drilling rigs.

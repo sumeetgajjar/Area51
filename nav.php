@@ -6,19 +6,44 @@
 <meta name="description" content="">
 <meta name="author" content="">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<!--<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">-->
 <link href="css/bootstrap-responsive.css" rel="stylesheet">
-<link href="previewcss.css" rel="stylesheet">
+<!--<link href="previewcss.css" rel="stylesheet">-->
+    <link href="css/dropdown.css" rel="stylesheet">
 <link href="css/style.css" rel="stylesheet">
+<link href="css/butpopup.css" rel="stylesheet">
+<link href="css/popupcss.css" rel="stylesheet">
 <link href="button.css" rel="stylesheet">
-<link href="css/dropdown.css" rel="stylesheet">
 <link href="color/default.css" rel="stylesheet">
 <link rel="shortcut icon" href="img/favicon.ico">
 <link rel="shortcut icon" href="../favicon.ico">
- 
+    	<link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine">
+	<link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
+
+ <style>
+     .logo{
+           padding: 0px;
+  margin: 0px;
+  text-align: center;
+  display:inline-block;
+  vertical-align:top;
+         color: #fff;
+	font-size: 2.5em;
+     }
+     .logo a:hover {
+	text-decoration: none;
+ transition: color .15s linear;
+ -webkit-transition: color .15s linear;
+ -moz-transition: color .15s linear;
+         color: #16A085  ;
+}
+.logo a:focus {
+	outline: none;
+}
+    </style>
 </head>
 <body>
-<!-- navbar -->
 <div class="navbar-wrapper">
 	<div class="navbar navbar-inverse navbar-fixed-top">
 		<div class="navbar-inner">
@@ -26,15 +51,17 @@
 				<!-- Responsive navbar -->
 				<a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse"><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
 				</a>
-				<h1 class="brand"><a href="index.php">Oil & Gas</a></h1>
+               
+				<h1 class="logo"><img src="ugs.jpg" width="40px" height="40px">&nbsp;&nbsp;<a href="index1.php">UNITED GULF SAFETY</a></h1>
+                &nbsp;&nbsp;&nbsp;&nbsp;
 				<!-- navigation -->
 				<nav class="pull-right nav-collapse collapse">
 				<ul id="menu-main" class="nav">
-					<li><a title="about us" href="index.php#about">About</a></li>
-                    <li class="dropdown-submenu" id="services"><a title="services" class="dropdown-toggle" data-toggle="dropdown">Services</a>
-                    <ul class="dropdown-menu">
-					<li class="dropdown-submenu"><a title="training" class="dropdown-toggle" data-toggle="dropdown">Training</a>
-                        <ul class="dropdown-menu">
+					<li><a  href="index1.php#about">About</a></li>
+                    <li id="services"><a  class="dropdown-toggle" data-toggle="dropdown">Services</a>
+                    <ul>
+					<li><a  class="dropdown-toggle" data-toggle="dropdown">Training</a>
+                        <ul>
                         <li><a href="training.php#basic">Basic Fire Fighting</a></li>
                         <li><a href="training.php#agt">Authorized gas testing</a></li>
                         <li><a href="training.php#fpwah">Fall Protection work at height</a></li>
@@ -49,15 +76,15 @@
                         <li><a href="training.php#sl">Safety Leadership</a></li>
                         </ul>
                     </li>
-                    <li><a title="Drop Survey" href="drop.php">Drop Survey</a></li>
-                    <li><a title="Rig Inspection" href="rig.php">Rig Inspection</a></li>
-                    <li><a title="Electrical Safety Audits" href="safety.php">Electrical Safety Audits</a></li>
-                    <li><a title="Energy" href="energy.php">Energy Audit</a></li>
+                    <li><a  href="drop.php">Drop Survey</a></li>
+                    <li><a  href="rig.php">Rig Inspection</a></li>
+                    <li><a  href="safety.php">Electrical Safety Audits</a></li>
+                    <li><a  href="energy.php">Energy Audit</a></li>
                     </ul>
                     </li>
-                    <li><a title="gallery" href="img.php">Gallery</a></li>
-					<li><a title="article" href="index.php#blog">Article</a></li>
-					<li><a title="contact" href="index.php#contact">Contact Us</a></li>
+                    <li><a  href="img-check.php">Gallery</a></li>
+					<li><a  href="index1.php#blog">Article</a></li>
+					<li><a  href="index1.php#contact">Contact Us</a></li>
 					</ul>
 				</nav>
 			</div>
@@ -76,6 +103,8 @@
 <script src="js/animate.js"></script>
 <script src="js/custom.js"></script>
 <script src="contactform/contactform.js"></script>
+      	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+  	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 <script>(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
     (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
     m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)

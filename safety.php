@@ -12,7 +12,7 @@ require('nav.php');
         </div>
     </section>
     
-<P class="ex1"><img src="img/icons/electricalsafety.png" alt="" align="left"/>The major hazards associated with electricity are electrical shock, fire and arc flash.  Electrical shock occurs when the body becomes part of the electric circuit, either when an individual comes in contact with both wires of an electrical circuit, one wire of an energized circuit and the ground, or a metallic part that has become energized by contact with an electrical conductor.
+<P class="ex1">The major hazards associated with electricity are electrical shock, fire and arc flash.  Electrical shock occurs when the body becomes part of the electric circuit, either when an individual comes in contact with both wires of an electrical circuit, one wire of an energized circuit and the ground, or a metallic part that has become energized by contact with an electrical conductor.
 
 The severity and effects of an electrical shock depend on a number of factors, such as the pathway through the body, the amount of current, the length of time of the exposure, and whether the skin is wet or dry.  Water is a great conductor of electricity, allowing current to flow more easily in wet conditions and through wet skin.
 
