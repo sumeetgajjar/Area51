@@ -28,9 +28,7 @@ $conn= mysqli_connect($host,$username,$password, $database);
     cursor: pointer;
     transition: .3s;
 }
- section.section {
-	padding: 170px 0 170px;
-}
+
         table{
              background-color: #16A085;
         }
@@ -38,7 +36,9 @@ tr{
     padding-right: 50px;
    
 }
-
+ section.section {
+	padding: 170px 0 170px;
+}
 th{
     padding-right: 50px;
 }
@@ -51,7 +51,7 @@ th{
         <table align="center">
             
             <tr >
-        <th><h3><a href="#all"> ALL   </a></h3></th>
+        <th><h3><a href="#all">&nbsp;&nbsp;&nbsp;&nbsp; ALL   </a></h3></th>
             <th><h3><a href="#ds"> DROP SURVEY   </a></h3></th>
             <th><h3><a href="#ri"> RIG INSPECTION   </a></h3></th>
             <th><h3><a href="#es">  ELECTRICAL SAFETY AUDITS   </a></h3></th>

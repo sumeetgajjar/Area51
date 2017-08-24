@@ -1,23 +1,23 @@
 <?php
 
 
-// Create connection
-//$conn = new mysqli($servername, $username, $password);
-//$connect=mysqli_connect('localhost','root','','oilgas');
-// Check connection
-//if ($connect->connect_error) {
+ Create connection
+$conn = new mysqli($servername, $username, $password);
+$connect=mysqli_connect('localhost','root','','iadmin');
+ Check connection
+if ($connect->connect_error) {
     //die("Connection failed: " . $connect->connect_error);
-//} 
-//7echo "Connected successfully";
+} 
+echo "Connected successfully";
 $name=$_POST['name'];
 $email=$_POST['email'];
 //$phoneno=$_POST['phone'];
 $subject=$_POST['subject'];
 $message=$_POST['message'];
-/*
-mysqli_query($connect,"INSERT INTO contact (Name,mail,Phoneno,Subject,Message)
-		        VALUES ('$name','$email','0','$subject','$message')");
 
+mysqli_query($connect,"INSERT INTO contactus(Name,mail,Subject,Message)
+		        VALUES ('$name','$email','$subject','$message')");
+/*
 if(mysqli_affected_rows($connect) > 0){
 	//echo "<p>guest Added</p>";
 } else {
@@ -95,7 +95,9 @@ else // phone number is empty
     }
     
 }
-    $to = 'sprerak789@gmail.com';
+    $to = $email
+        
+        ;
 //    send_mail($to, $body);
 function send_mail($to, $body)
 {
@@ -107,7 +109,7 @@ function send_mail($to, $body)
 	$mail->Host = 'smtp.gmail.com';
 	$mail->SMTPAuth = true;
 	$mail->Username = 'sprerak789@gmail.com';
-	$mail->Password = 'prerakshah1234';
+	$mail->Password = 'manishkimplevrutik';
 	$mail->SMTPSecure = 'ssl';
 	$mail->Port = 465;
 	

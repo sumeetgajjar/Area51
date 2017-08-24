@@ -52,23 +52,23 @@ require('nav.php');
 <div id="captioned-gallery">
 	<figure class="slider">
 		<figure>
-			<img src="bg-1.jpg" alt>
+			<img src="1.jpg" alt>
 			<figcaption>Hobbiton, New Zealand</figcaption>
 		</figure>
 		<figure>
-			<img src="bg-2.jpg" alt>
+			<img src="2.jpg" alt>
 			<figcaption>Wanaka, New Zealand</figcaption>
 		</figure>
 		<figure>
-			<img src="bg-3.jpg" alt>
+			<img src="3.jpg" alt>
 			<figcaption>Utah, United States</figcaption>
 		</figure>
 		<figure>
-			<img src="bg-1.jpg" alt>
+			<img src="4.jpg" alt>
 			<figcaption>Bryce Canyon, Utah, United States</figcaption>
 		</figure>
-		<figure>
-			<img src="bg-3.jpg" alt>
+        <figure>
+			<img src="1.jpg" alt>
 			<figcaption>Hobbiton, New Zealand</figcaption>
 		</figure>
 	</figure>
