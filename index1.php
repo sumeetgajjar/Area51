@@ -1,5 +1,6 @@
 <?php
 require('nav.php');
+require('conn.php');
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -67,13 +68,68 @@ require('nav.php');
 			<img src="4.jpg" alt>
 			<figcaption>Bryce Canyon, Utah, United States</figcaption>
 		</figure>
-        <figure>
+		<figure>
 			<img src="1.jpg" alt>
 			<figcaption>Hobbiton, New Zealand</figcaption>
 		</figure>
 	</figure>
 </div>
        
+
+<!-- end section: team -->
+<!-- section: blog -->
+<section id="blog" class="section green">
+    <div class="container">
+        <h4>Our Blog </h4>
+                 <?php
+    //execute the SQL query and return records
+    $result = mysqli_query($conn,"SELECT * FROM article_upload order by id desc");
+    ?><table>
+        <tr>
+     <?php
+     $i=1;
+      while ($row = mysqli_fetch_assoc($result)) { 
+          if( $i<5){
+          $cont =  $row['content'];
+     ?>
+
+<td>            
+     <div class="span3">
+			<div class="home-post">
+				<div class="post-image">
+					<img class="max-img" src="img/blog/img1.jpg" alt="" />
+				</div>
+				<div class="post-meta">
+					<i class="icon-file icon-2x"></i>
+					<span class="tags"><B>BLOG</B></span>
+				</div>
+                <!--popup the box-->
+                <div id="id_<?php echo $i ?>" class="white_content"> <h3><?php echo $row['name']; ?><a href="javascript:void(0)" onclick="document.getElementById('id_<?php echo $i ?>').style.display='none';document.getElementById('fade').style.display='none'"><button class="bt">Close</button></a></h3><?php  echo  "$cont"; ?> 
+                </div>
+                <!--fade the background-->
+                <div id="fade" class="black_overlay"></div>
+				<div class="entry-content">
+                    <h5><strong><h3><?php echo $row['name']; ?></h3></strong></h5>
+					<a href="javascript:void(0)" onclick="document.getElementById('id_<?php echo $i ?>').style.display='block';document.getElementById('fade').style.display='block'">Read more</a>
+				</div>
+                 
+			</div>
+		</div>
+            
+     <?php $i=$i+1 ?>
+     <?php  } } ?>   
+    </td>        </tr></table>
+	</div>
+        
+       <!-- <a href="article.html"><button class="w3-button w3-xlarge w3-circle w3-teal" style="float:right;">+</button></a>-->
+	
+	
+	<div class="blankdivider30"></div>
+	<div class="aligncenter">
+		<a href="retrivefile.php" class="btn btn-large btn-theme">More blog post</a>
+	</div>
+
+</section>
 <section id="about" class="section">
 <div class="container">
 	<h4>Who We Are</h4>
@@ -135,69 +191,6 @@ require('nav.php');
 </div>
 <!-- /.container -->
 </section>
-<!-- end section: team -->
-        <?php
-$host="localhost";
- $username="root";    			// specify the sever details for mysql
- $password="";
- $database="iadmin";
-$conn= mysqli_connect($host,$username,$password, $database);
-      //   $res = mysqli_query($conn,"SELECT * FROM article_upload");
-?>
-<!-- section: blog -->
-<section id="blog" class="section green">
-    <div class="container">
-        <h4>Our Blog </h4>
-                 <?php
-    //execute the SQL query and return records
-    $result = mysqli_query($conn,"SELECT * FROM article_upload order by id desc");
-    ?><table>
-        <tr>
-     <?php
-     $i=1;
-      while ($row = mysqli_fetch_assoc($result)) { 
-          if( $i<5){
-          $cont =  $row['content'];
-     ?>
-
-<td>            
-     <div class="span3">
-			<div class="home-post">
-				<div class="post-image">
-					<img class="max-img" src="img/blog/img1.jpg" alt="" />
-				</div>
-				<div class="post-meta">
-					<i class="icon-file icon-2x"></i>
-					<span class="tags"><B>BLOG</B></span>
-				</div>
-                <!--popup the box-->
-                <div id="id_<?php echo $i ?>" class="white_content"> <h3><?php echo $row['name']; ?><a href="javascript:void(0)" onclick="document.getElementById('id_<?php echo $i ?>').style.display='none';document.getElementById('fade').style.display='none'"><button class="bt">Close</button></a></h3><?php  echo  "$cont"; ?> 
-                </div>
-                <!--fade the background-->
-                <div id="fade" class="black_overlay"></div>
-				<div class="entry-content">
-                    <h5><strong><h3><?php echo $row['name']; ?></h3></strong></h5>
-					<a href="javascript:void(0)" onclick="document.getElementById('id_<?php echo $i ?>').style.display='block';document.getElementById('fade').style.display='block'">Read more</a>
-				</div>
-                 
-			</div>
-		</div>
-            
-     <?php $i=$i+1 ?>
-     <?php  } } ?>   
-    </td>        </tr></table>
-	</div>
-        
-       <!-- <a href="article.html"><button class="w3-button w3-xlarge w3-circle w3-teal" style="float:right;">+</button></a>-->
-	
-	
-	<div class="blankdivider30"></div>
-	<div class="aligncenter">
-		<a href="retrivefile.php" class="btn btn-large btn-theme">More blog post</a>
-	</div>
-
-</section>
-
 <!-- end spacer section -->
 <!-- section: contact -->
 <section id="contact" class="section green">
@@ -238,7 +231,7 @@ $conn= mysqli_connect($host,$username,$password, $database);
 								<textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
                                 <div class="validation"></div><br><br>
 							</div>
-							<input type="submit" value="Send message" class="btn btn-theme pull-left">
+							<input type="submit" value="Send message" class="btn">
 						</div>
 					</div>
 				</form>

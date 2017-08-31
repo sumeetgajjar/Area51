@@ -1,10 +1,10 @@
 <?php
 
 
- Create connection
-$conn = new mysqli($servername, $username, $password);
+ //Create connection
+//$conn = new mysqli($servername, $username, $password);
 $connect=mysqli_connect('localhost','root','','iadmin');
- Check connection
+ //Check connection
 if ($connect->connect_error) {
     //die("Connection failed: " . $connect->connect_error);
 } 
@@ -95,31 +95,28 @@ else // phone number is empty
     }
     
 }
-    $to = $email
         
         ;
 //    send_mail($to, $body);
-function send_mail($to, $body)
-{
 	require 'PHPMailer/PHPMailerAutoload.php';
-	
+	$to="sprerak789@gmail.com";
 	$mail = new PHPMailer;
 	
 	$mail->isSMTP();
 	$mail->Host = 'smtp.gmail.com';
 	$mail->SMTPAuth = true;
-	$mail->Username = 'sprerak789@gmail.com';
-	$mail->Password = 'manishkimplevrutik';
+	$mail->Username = 'unitedgulfsafety@gmail.com';
+	$mail->Password = 'sumeetproject';
 	$mail->SMTPSecure = 'ssl';
 	$mail->Port = 465;
 	
-	$mail->From = 'sprerak789@gmail.com';
-	$mail->FromName = 'Prerak Shah';
+	$mail->From = 'unitedgulfsafety@gmail.com';
+	$mail->FromName = $name;
 	$mail->addAddress($to);
 	
 	$mail->isHTML(true); 
-	
-	$mail->Body    = $name;
+	$mail->Subject = "NewUser";
+	$mail->Body    = "\nThe person visited your site is  ".$name."\nHis/Her Email  ".$email."\nHis/Her Subject  ".$subject."\nHis/Her Message  ".$message;
     $mail->AltBody = 'This is the body in plain text for non-HTML mail clients';
 	
 	if(!$mail->send())
@@ -132,4 +129,3 @@ function send_mail($to, $body)
 		alert('Email has been sent');
 		</script>";
 	}
-}

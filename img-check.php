@@ -1,10 +1,6 @@
 <?php
 require('nav.php');
-$host="localhost";
- $username="root";    			// specify the sever details for mysql
- $password="";
- $database="iadmin";
-$conn= mysqli_connect($host,$username,$password, $database);
+require('conn.php');
 ?>
 <html>
 <head>
@@ -28,7 +24,9 @@ $conn= mysqli_connect($host,$username,$password, $database);
     cursor: pointer;
     transition: .3s;
 }
-
+ section.section {
+	padding: 170px 0 170px;
+}
         table{
              background-color: #16A085;
         }
@@ -36,9 +34,7 @@ tr{
     padding-right: 50px;
    
 }
- section.section {
-	padding: 170px 0 170px;
-}
+
 th{
     padding-right: 50px;
 }

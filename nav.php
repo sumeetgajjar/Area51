@@ -14,12 +14,37 @@
 <link href="css/butpopup.css" rel="stylesheet">
 <link href="css/popupcss.css" rel="stylesheet">
 <link href="button.css" rel="stylesheet">
-<link href="color/default.css" rel="stylesheet">
+<link href="color/default1.css" rel="stylesheet">
 <link rel="shortcut icon" href="img/favicon.ico">
 <link rel="shortcut icon" href="../favicon.ico">
+    <link href="css/servicesstyle.css" rel="stylesheet">
     	<link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine">
 	<link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
+
+ <style>
+     .logo{
+           padding: 0px;
+  margin: 0px;
+  text-align: center;
+  display:inline-block;
+  vertical-align:top;
+         color: #fff;
+	font-size: 2.5em;
+         margin-top: auto;
+         border-right: auto;
+     }
+     .logo a:hover {
+	text-decoration: none;
+ transition: color .15s linear;
+ -webkit-transition: color .15s linear;
+ -moz-transition: color .15s linear;
+         color: #16A085  ;
+}
+.logo a:focus {
+	outline: none;
+}
+    </style>
 </head>
 <body>
 <div class="navbar-wrapper">
@@ -27,14 +52,12 @@
 		<div class="navbar-inner">
 			<div class="container">
 				<!-- Responsive navbar -->
-				<!--<a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse"><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
-				</a>-->
-               <img src="ugs.jpg" width="70px" height="80px" style="float:left;">
-				<h1 class="brand"><a href="index1.php">UNITED GULF SAFETY</a></h1>
+				
+                   <img src="ugs.jpg" width="70px" height="80px" style="float:left;">
+                <h1 class="brand">&nbsp;&nbsp;&nbsp;&nbsp;<a href="index1.php">UNITED GULF SAFETY</a></h1>  
 				<!-- navigation -->
 				<nav class="pull-right nav-collapse collapse">
 				<ul id="menu-main" class="nav">
-					<li><a  href="index1.php#about">About</a></li>
                     <li id="services"><a  class="dropdown-toggle" data-toggle="dropdown">Services</a>
                     <ul>
 					<li><a  class="dropdown-toggle" data-toggle="dropdown">Training</a>
@@ -61,6 +84,7 @@
                     </li>
                     <li><a  href="img-check.php">Gallery</a></li>
 					<li><a  href="index1.php#blog">Article</a></li>
+                    <li><a  href="index1.php#about">About</a></li>
 					<li><a  href="index1.php#contact">Contact Us</a></li>
 					</ul>
 				</nav>
@@ -68,7 +92,7 @@
 		</div>
 	</div>
 </div>
-
+    <script src="js/jquery.js"></script>
     <script src="js/jquery.flexslider.js"></script>
     <script src="js/jquery.prettyPhoto.js"></script>
 <script src="js/jquery.scrollTo.js"></script>

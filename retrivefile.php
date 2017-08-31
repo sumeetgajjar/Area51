@@ -1,10 +1,6 @@
 <?php
 require('nav.php');
-$host="localhost";
- $username="root";    			// specify the sever details for mysql
- $password="";
- $database="iadmin";
-$conn= mysqli_connect($host,$username,$password, $database);
+require('conn.php');
 ?>
  <!DOCTYPE html>
  <html >
@@ -52,6 +48,7 @@ $conn= mysqli_connect($host,$username,$password, $database);
          </table>
      <?php $i=$i+1 ?>
      <?php  } ?>
+     <a href="#" class="scrollup"><i class="icon-angle-up icon-square icon-bgdark icon-2x"></i></a>
  </body>
  </html>
 		

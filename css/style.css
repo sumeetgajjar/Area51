@@ -419,7 +419,7 @@ header .logo {
 
 
 section.section {
-	padding: 80px 0 80px;
+	padding: 50px 0 80px;
 }
 section.section h4 {
 	text-align: center;
@@ -871,9 +871,14 @@ section#about {
     font-weight:400;
     font-size:13px;
 }
+.btn
+{
+    color: darkcyan
+    border:1px solid green;
 
+}
 #sendmessage {
-    color: green;
+    color:#00664d ;
     border:1px solid green;
     display:none;
     text-align:center;
@@ -1632,7 +1637,7 @@ i.icon-white {
 @media only screen  and (min-device-width : 320px)  and (max-device-width : 480px) {
 
  section.section {
- padding: 1em 0;
+ padding: 2em 0;
 }
 
  #works .container {
