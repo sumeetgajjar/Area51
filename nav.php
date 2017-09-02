@@ -54,7 +54,7 @@
 				<!-- Responsive navbar -->
 				
                    <img src="ugs.jpg" width="70px" height="80px" style="float:left;">
-                <h1 class="brand">&nbsp;&nbsp;&nbsp;&nbsp;<a href="index1.php">UNITED GULF SAFETY</a></h1>  
+                <h1 class="brand">&nbsp;&nbsp;&nbsp;&nbsp;<a href="index.php">UNITED GULF SAFETY</a></h1>  
 				<!-- navigation -->
 				<nav class="pull-right nav-collapse collapse">
 				<ul id="menu-main" class="nav">
@@ -83,9 +83,9 @@
                     </ul>
                     </li>
                     <li><a  href="img-check.php">Gallery</a></li>
-					<li><a  href="index1.php#blog">Article</a></li>
-                    <li><a  href="index1.php#about">About</a></li>
-					<li><a  href="index1.php#contact">Contact Us</a></li>
+					<li><a  href="index.php#blog">Article</a></li>
+                    <li><a  href="index.php#about">About</a></li>
+					<li><a  href="index.php#contact">Contact Us</a></li>
 					</ul>
 				</nav>
 			</div>

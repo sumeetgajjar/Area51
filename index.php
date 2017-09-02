@@ -80,12 +80,7 @@ require('nav.php');
 
 <!-- end section: team -->
         <?php
-$host="localhost";
- $username="root";    			// specify the sever details for mysql
- $password="";
- $database="iadmin";
-$conn= mysqli_connect($host,$username,$password, $database);
-      //   $res = mysqli_query($conn,"SELECT * FROM article_upload");
+require('conn.php');
 ?>
 <!-- section: blog -->
 <section id="blog" class="section green">
