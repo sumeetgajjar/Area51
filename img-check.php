@@ -1,6 +1,10 @@
 <?php
 require('nav.php');
-require('conn.php');
+$host="localhost";
+ $username="root";    			// specify the sever details for mysql
+ $password="";
+ $database="iadmin";
+$conn= mysqli_connect($host,$username,$password, $database);
 ?>
 <html>
 <head>
@@ -47,7 +51,7 @@ th{
         <table align="center">
             
             <tr >
-        <th><h3><a href="#all">&nbsp;&nbsp;&nbsp;&nbsp; ALL   </a></h3></th>
+        <th><h3><a href="#all">ALL   </a></h3></th>
             <th><h3><a href="#ds"> DROP SURVEY   </a></h3></th>
             <th><h3><a href="#ri"> RIG INSPECTION   </a></h3></th>
             <th><h3><a href="#es">  ELECTRICAL SAFETY AUDITS   </a></h3></th>
@@ -56,7 +60,7 @@ th{
             </table>
         <!-- all-->
         <section id="all" class="section">
-    <div class="container">
+    <div class="container" align="center">
         <div class="row">
 		<div class="container">
     <div class=" col-sm-12">
@@ -84,6 +88,7 @@ th{
         <!--drop survey-->
              <section id="ds" class="section">
     <div class="container">
+        <h4>DROP SURVEY</h4>
       <div class="col-sm-12">
 		<div class="span10 offset1">
     <div class="gallery">
@@ -110,6 +115,7 @@ th{
         <!--rig inspection-->
             <section id="ri" class="section">
     <div class="container">
+        <h4>RIG INSPECTION</h4>
         <div class="col-sm-12">
 		<div class="span10 offset1">
     <div class="gallery">
@@ -137,6 +143,7 @@ th{
         <!--electical safety audit-->
             <section id="es" class="section">
     <div class="container">
+        <h4>ELECTRICAL SAFETY AUDIT</h4>
         <div class="col-sm-12">
 		<div class="span10 offset1">
     <div class="gallery">
@@ -164,6 +171,7 @@ th{
         <!--energy audit-->
             <section id="ea" class="section">
     <div class="container">
+        <h4>ENERGY AUDIT</h4>
         <div class="col-sm-12">
 		<div class="span10 offset1">
     <div class="gallery">

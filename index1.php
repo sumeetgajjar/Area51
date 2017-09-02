@@ -1,6 +1,5 @@
 <?php
 require('nav.php');
-require('conn.php');
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -32,7 +31,7 @@ require('conn.php');
   }
   figure.slider { 
     position: relative; width: 500%;
-    font-size: 0; animation: 10s slidy infinite; 
+    font-size: 0; animation: 20s slidy infinite; 
   }
   figure.slider figure { 
     width: 20%; height: auto;
@@ -45,6 +44,9 @@ require('conn.php');
     color: #fff; width: 100%;
     font-size: 2rem; padding: .6rem; 
   }
+          .container{
+              padding: inherit;
+          }
       </style>
     </head>
       <body>
@@ -77,6 +79,14 @@ require('conn.php');
        
 
 <!-- end section: team -->
+        <?php
+$host="localhost";
+ $username="root";    			// specify the sever details for mysql
+ $password="";
+ $database="iadmin";
+$conn= mysqli_connect($host,$username,$password, $database);
+      //   $res = mysqli_query($conn,"SELECT * FROM article_upload");
+?>
 <!-- section: blog -->
 <section id="blog" class="section green">
     <div class="container">
@@ -119,7 +129,7 @@ require('conn.php');
      <?php $i=$i+1 ?>
      <?php  } } ?>   
     </td>        </tr></table>
-	</div>
+	
         
        <!-- <a href="article.html"><button class="w3-button w3-xlarge w3-circle w3-teal" style="float:right;">+</button></a>-->
 	
@@ -128,9 +138,10 @@ require('conn.php');
 	<div class="aligncenter">
 		<a href="retrivefile.php" class="btn btn-large btn-theme">More blog post</a>
 	</div>
-
+</div>
 </section>
-<section id="about" class="section">
+<!-- end spacer section -->
+          <section id="about" class="section">
 <div class="container">
 	<h4>Who We Are</h4>
 	<div class="row">
@@ -191,7 +202,6 @@ require('conn.php');
 </div>
 <!-- /.container -->
 </section>
-<!-- end spacer section -->
 <!-- section: contact -->
 <section id="contact" class="section green">
 <div class="container">
@@ -250,7 +260,7 @@ require('conn.php');
 				<a href="#"><i class="icon-circled icon-bgdark icon-dribbble icon-2x"></i></a>
 				<a href="#"><i class="icon-circled icon-bgdark icon-pinterest icon-2x"></i></a>
 			<p class="copyright">
-				<center>&copy; Oil & Gas. All rights reserved.</center>
+				<center>&copy; UnitedGulfSafety All rights reserved.</center>
 			</p>
 		</div>
 	</div>

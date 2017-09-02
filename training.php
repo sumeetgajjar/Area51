@@ -2,6 +2,13 @@
 require('nav.php');
 ?>
 <html>
+    <head>
+    <style>
+        .container{
+            padding: inherit;
+        }
+        </style>
+    </head>
 <body>
 <!-- navbar -->
     <body>
@@ -13,7 +20,7 @@ require('nav.php');
 	<div class="row">
 		<div class="span10 offset1">
 			<div>
-				<h2 align="center"><strong>BASIC FIRE FIGHTINING</strong></h2><br><br>
+				<h2 align="center"><strong>BASIC FIRE FIGHTINING</strong></h2><br>
 <p class="ex3"><img src="img\icons\oilgasicon.png" alt="" align="left"/>When faced with extraordinary situations, anything can happen. With proper firefighting training and education, you will be able to make the right decisions in these emergency situations. Approximately 600 people die and over 4 000 are injured annually in South Africa as a result of fires, and these blazes cause more than R500 million in damages to properties every year. Action Training Academy’s firefighting training courses are aimed at teaching basic firefighting skills to minimise loss of life and property, by extinguishing fires in their early stages. The best method of stopping a fire is to prevent it. The actions taken to control a fire during the first few minutes will determine whether it can be contained or not. Minimise damage during fires by contacting us for expert firefighting training. Legislation requires that one in 50 people per company, or two people per building, be trained in basic firefighting. To ensure that there are more on-site fire safety experts available to reduce this statistic, Action Training Academy provides the following firefighting training:
 
 Basic Fire Awareness Course – Every employee should be aware of how fires start, spread and are controlled. This course teaches general respect for fire and makes employees aware of fire risks in the workplace.
@@ -36,7 +43,7 @@ Fire Safety Management and Risk Analysis Services – Fire risk is a 24/7 concer
 	<div class="row">
 		<div class="span10 offset1">
 			<div>
-				<h2 align="center"><strong>H2S AND SCABA</strong></h2><br><br>
+				<h2 align="center"><strong>H2S AND SCABA</strong></h2><br>
 <p><img src="img\icons\oilgasicon.png" alt="" align="left"/>Dräger does not consider a test, which is conducted exclusively
 with particles in the form of aerosols, sufficient to describe the
 protective effects against gaseous hazardous substances. A TIL
@@ -88,7 +95,7 @@ being successfully used.</p>
 	<div class="row">
 		<div class="span10 offset1">
 			<div>
-                <h2 align="center"><strong>AUTHORISED GAS TESTING</strong></h2><br><br>
+                <h2 align="center"><strong>AUTHORISED GAS TESTING</strong></h2><br>
                <p><img src="img\icons\oilgasicon.png" alt="" align="left"/>The aim is to ensure that personnel preparing for the gas tester role are equipped with the knowledge to conduct gas tests for oxygen levels, flammable and toxic gases safely. In addition to equip personnel with the knowledge.
 
 to conduct gas testing within confined spaces and awareness of associated confined space hazards.
@@ -109,7 +116,7 @@ to conduct gas testing within confined spaces and awareness of associated confin
 	<div class="row">
 		<div class="span10 offset1">
 			<div>
-				<h2 align="center"><strong>FALL PROTECTION WORK AT HEIGHT</strong></h2><br><br>
+				<h2 align="center"><strong>FALL PROTECTION WORK AT HEIGHT</strong></h2><br>
 <p><img src="img\icons\oilgasicon.png" alt="" align="left"/>Dräger does not consider a test, which is conducted exclusively with particles in the form of aerosols, sufficient to describe the protective effects against gaseous hazardous substances. A TIL test in accordance with the tests of DIN EN 136/137 and incorporating the 5%/95% percentile distribution of the head shapes (in accordance with the future ISO RPD standard) can provide the best possible and safest demonstration of the actual protection against gaseous hazardous substances. By using the test gas SF6, which behaves similar to H2S, the SWPF test simulates in particular the gaseous hazards on acidic oil fields as realistic as possible. This is also supported by the highly different test
 results of an SWPF test with aerosols and an SWPF test with SF6. SWPF tests with SF6 confirm that SCBA by Dräger ensure much higher protection factors than required in the corresponding standards. This verification was provided by the Institut für Arbeitsschutz der Deutschen Gesetzlichen Unfallversicherung (IFA, German health and safety institute commissioned to carry out testing for the German Statutory Accident Insurers DGUV) 7. Two Dräger full-face masks (Dräger Panorama Nova® New ISO RPD put focus on the user The new ISO RPD will in future replace all existing standards for respiratory protection devices across the EU as well as in other countries (USA, Australia,India, Brazil, Japan etc.) or complement them. It is related to complete respiratory protection devices(excluding technical interface mask to LDV/filter) and takes in particular the requirements of the device user concerning handling, fit and protection class into account. The first publication of the new ISO RPD standard has been planned for 2018 (based on information as of: April 2015). small S short–wide SW medium M long–narrow LN large L and FPS® 7000) were tested in positive pressure mode. Both masks achieved leakage values which for a percentile distribution of 95% of device wearers guarantee an SWPF of 90,000 and for 5% an SWPF of 20,000. Thanks to these above-average results they are specifically suited for the use with SCBA and Escape SCBA in the oil and gas industries where they are already being successfully used.</P>
             </div>
@@ -121,7 +128,7 @@ results of an SWPF test with aerosols and an SWPF test with SF6. SWPF tests with
 	<div class="row">
 		<div class="span10 offset1">
 			<div>
-				<h2 align="center"><strong>FIRST AID</strong></h2><br><br>
+				<h2 align="center"><strong>FIRST AID</strong></h2><br>
                 <p><img src="img\icons\oilgasicon.png" alt="" align="left"/>First aid is basic knowledge about how to help people who are suddenly sick (illnesses) or hurt (injuries or body damage). For example, first aid is used at accidents to help an injured person until they receive medical treatment (help by doctors, nurses or ambulances). First aid is also used to help people who suddenly become sick, until help arrives or they can be taken to medical care.
                 First aid is basic knowledge about how to help people who are suddenly sick (illnesses) or hurt (injuries or body damage). For example, first aid is used at accidents to help an injured person until they receive medical treatment (help by doctors, nurses or ambulances). First aid is also used to help people who suddenly become sick, until help arrives or they can be taken to medical care.It is best to have good training to give first aid. In addition to books and videos, good training includes a good teacher and the chance to practice. For example, CPR is practiced on a dummy called a mannequin, so a student can learn to push down on someone's chest in an emergency without actually doing it to a person. The teacher makes sure the first aid student is doing the skill correctly.First aid kits may be kept in cloth bags or plastic or metal boxes. They are often labeled with a symbol such as those on the upper right. Training can be given by an organization or by a professional medical person, like a doctor, a nurse, or a paramedic. Organizations that teach first aid include the International Red Cross, schools, hospitals, the military, Scout groups, and rescue groups such as fire departments.</P>
             </div>
@@ -133,7 +140,7 @@ results of an SWPF test with aerosols and an SWPF test with SF6. SWPF tests with
 	<div class="row">
 		<div class="span10 offset1">
 			<div>
-				<h2 align="center"><strong>WORK AT CONFINED SPACE</strong></h2><br><br>
+				<h2 align="center"><strong>WORK AT CONFINED SPACE</strong></h2><br>
                <p><img src="img\icons\oilgasicon.png" alt="" align="left"/>Confined Space refers to any place, including any vessel, tank, container, pit, bund, chamber, cellar or any other similar space which, by virtue of its enclosed nature, creates conditions that give rise to a likelihood of an accident, harm or injury of such a nature as to require emergency action due tothe presence or reasonable foreseeable presence offlammable or explosive atmospheres,The key characteristics of a confined space are:
 the space must be substantially enclosed
 there must be a risk of at least one of the hazards listed above occurring within the space
@@ -157,7 +164,7 @@ Anyone entering a confined space must be provided with appropriate information, 
 	<div class="row">
 		<div class="span10 offset1">
 			<div>
-				<h2 align="center"><strong>RIGGIND AND SLINGING</strong></h2><br><br>
+				<h2 align="center"><strong>RIGGIND AND SLINGING</strong></h2><br>
 <p><img src="img\icons\oilgasicon.png" alt="" align="left"/>The Rigging & Slinging courses offered by DELTA are developed in close cooperation with Franklin Offshore Europe. Franklin is world leading in hoisting/mooring/lifting equipment and services and approached DELTA for  cooperation in the development of high quality training courses in the field of Rigging & Slinging.  DELTA already had a long lasting experience with training courses like safely moving of loads and working with cranes and its training facilities are the best you can find.
 DNV certificates
 Participants of the Rigging & Slinging training courses that successfully complete the exams, are rewarded with a DNV certificate. DNV stands for quality  and worldwide recognition of their certificates.
@@ -174,7 +181,7 @@ Below the current Rigging & Slinging training courses are listed. Also the train
 	<div class="row">
 		<div class="span10 offset1">
 			<div>
-				<h2 align="center"><strong>HAND FINGURES AND INJURY</strong></h2><br><br>
+				<h2 align="center"><strong>HAND FINGURES AND INJURY</strong></h2><br>
 <P><img src="img\icons\oilgasicon.png" alt="" align="left"/>At one time or another, everyone has had a minor injury to a finger, hand, or wrist that caused pain or swelling. Most of the time our body movements do not cause problems, but it's not surprising that symptoms develop from everyday wear and tear, overuse, or an injury.
 
 Finger, hand, or wrist injuries most commonly occur during:
@@ -202,7 +209,7 @@ Most minor injuries will heal on their own, and home treatment is usually all th
 	<div class="row">
 		<div class="span10 offset1">
 			<div>
-				<h2 align="center"><strong>HAZCOM HAZARD COMMUNICATION</strong></h2><br><br>
+				<h2 align="center"><strong>HAZCOM HAZARD COMMUNICATION</strong></h2><br>
 <p><img src="img\icons\oilgasicon.png" alt="" align="left"/>An effective HAZCOM program depends on the credibility of management's involvement in the program; inclusion of employees in safety and health decisions; rigorous worksite analysis to identify hazards and potential hazards, including those which could result from a change in worksite conditions or practices; stringent prevention and control measures; and thorough training. It addresses hazards whether or not they are regulated by government standards. The following references characterize and further explain HAZCOM programs.
 
 Each employee who may be exposed to hazardous chemicals when working must be provided information and trained prior to initial assignment to work with a hazardous chemical, and whenever the hazard changes.
@@ -221,7 +228,7 @@ Elements of an Effective Safety and Health Program. OSHA Slide Presentation, (19
 	<div class="row">
 		<div class="span10 offset1">
 			<div>
-				<h2 align="center"><strong>HAZID HAZARD IDENTIFICATION</strong></h2><br><br>
+				<h2 align="center"><strong>HAZID HAZARD IDENTIFICATION</strong></h2><br>
 <p><img src="img\icons\oilgasicon.png" alt="" align="left"/>HAZID (Hazard Identification) is a qualitative technique for the early identification of potential hazards and threats effecting people, the environment, assets or reputation. The major benefit of a HAZID study is to provide essential input to project development decisions.It is a means of identifying and describing HSE hazards and threats at the earliest practicable stage of a development or venture.The study method is a combination of identification, analysis and brainstorming by the HAZID team members. Guidewords are used in order to identify possible potential and hazardous effects as well as threats. Furthermore the team analyses the appropriate controls that should put in place in order to prevent or control each identified threat.
 The analysis of HAZID will be conducted on a session basis, grouping the processes with the PFD (Process Flow Diagram) and plant layout into a series of sections where the various sources will have similar characteristics and hence consequences.Benefits of Carrying out HAZID
 
@@ -240,7 +247,7 @@ Hazards involved in operating each equipments can be enlisted at the beginning, 
 	<div class="row">
 		<div class="span10 offset1">
 			<div>
-				<h2 align="center"><strong>CRANE OPERATOR CERTIFICATION</strong></h2><br><br>
+				<h2 align="center"><strong>CRANE OPERATOR CERTIFICATION</strong></h2><br>
 <p><img src="img\icons\oilgasicon.png" alt="" align="left"/>Special designations can be issued for a specific type, make, model or configuration, including digger Derrick or friction cranesIn order to earn an accredited CIC crane operator certification candidates must take and pass both a Written Exam and a Practical Exam.
 
 The Written Exam will consist of a general knowledge portion and a supplemental exam section for each type of certification the candidate wishes to achieve.
@@ -250,10 +257,7 @@ The Practical Exam is a demonstration of the candidate’s skills actually opera
 Crane operator certifications are valid for a period of five years from the date the first Written or Practical Exam is passed.Multi-Purpose Cranes
 Articulating Boom Cranes
 Service/Mechanic Truck Cranes
-Precast Concrete Delivery Cranes (under 21-ton capacity, fixed or rotating operator station)
-                
-                
-                </P>
+Precast Concrete Delivery Cranes (under 21-ton capacity, fixed or rotating operator station)</P>
             </div>
         </div>
     </div>
@@ -263,7 +267,7 @@ Precast Concrete Delivery Cranes (under 21-ton capacity, fixed or rotating opera
 	<div class="row">
 		<div class="span10 offset1">
 			<div>
-				<h2 align="center"><strong>FORKLIFT OPERATOR CERTIFICATION</strong></h2><br><br>
+				<h2 align="center"><strong>FORKLIFT OPERATOR CERTIFICATION</strong></h2><br>
 <p><img src="img\icons\oilgasicon.png" alt="" align="left"/>Course Overview
 
 This certificate-level online Forklift Operator safety course focuses on the safe operation of a sit-down, counterbalanced forklift. Discover the general safety rules and driver evaluations required in order to obtain a forklift certification card. Learn which OSHA regulations have changed, and what you need to know in order to stay safe while working.
@@ -296,7 +300,7 @@ Powered Industrial Trucks: General</p>
 	<div class="row">
 		<div class="span10 offset1">
 			<div>
-				<h2 align="center"><strong>SAFETY LEADERSHIP</strong></h2><br><br>
+				<h2 align="center"><strong>SAFETY LEADERSHIP</strong></h2><br>
             <p><img src="img\icons\oilgasicon.png" alt="" align="left"/>Safety  performance is driven by the leadership of the organization. Leaders establish values, develop procedures, and enforce accountability for their safety programs. Put another way, safety leaders set the standards of safe behavior within their companies. We would obviously expect a safety leader to be someone who exhibits high SafetyDNA, but leadership is more than just managing one’s own safety behaviors. A true safety leader also motivates his or her coworkers to strive for minimal risk exposure. First, I will discuss exactly what we mean by safety leadership and the actions performed by the employees who fill this role.Safety leadership is defined as the process of interaction between leaders and followers, through which leaders can exert their influence on followers to achieve organizational safety goals. The feature of this definition that most often confuses people is the concept of leaders and followers. Too often, the terms ‘leadership’ and ‘management’ are used interchangeably. The problem here is that many do not recognize the critical differences between these roles and the vital functions of each in building strong safety performance. Specifically, managers exist as part of the organization’s structural hierarchy and exert formal influence over their subordinates, while leadership is a voluntary activity by which an individual exerts social influence over coworkers by setting an example of appropriate behavior to elicit shared goals and effect positive change in the organization. Certainly one individual can be both a manager and a leader, but this only occurs through conscious effort to effectively perform both roles.
 
 The misconception that safety leadership refers only to those in top management is far-reaching. For example OSHA developed the 5-STARS model of safety leadership which entails:
@@ -307,10 +311,7 @@ Training: conducting safety education and training
 
 Accountability: insisting that everyone complies with company safety policies and rules
 
-Resources: providing physical resources – tools, equipment, materials – so employees can work safely
-                
-                
-                </P>
+Resources: providing physical resources – tools, equipment, materials – so employees can work safely</P>
        
             </div>
         </div>

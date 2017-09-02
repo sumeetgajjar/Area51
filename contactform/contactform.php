@@ -5,10 +5,10 @@
 //$conn = new mysqli($servername, $username, $password);
 $connect=mysqli_connect('localhost','root','','iadmin');
  //Check connection
-if ($connect->connect_error) {
+//if ($connect->connect_error) {
     //die("Connection failed: " . $connect->connect_error);
-} 
-echo "Connected successfully";
+//} 
+//echo "Connected successfully";
 $name=$_POST['name'];
 $email=$_POST['email'];
 //$phoneno=$_POST['phone'];
@@ -99,6 +99,7 @@ else // phone number is empty
         ;
 //    send_mail($to, $body);
 	require 'PHPMailer/PHPMailerAutoload.php';
+    $to="vishalprakash.2016@gmail.com";
 	$to="sprerak789@gmail.com";
 	$mail = new PHPMailer;
 	
@@ -125,7 +126,5 @@ else // phone number is empty
 	} 
 	else 
 	{
-		echo "<script>
-		alert('Email has been sent');
-		</script>";
+		echo 'Your Details have been received ..Will come back to you soon!';
 	}

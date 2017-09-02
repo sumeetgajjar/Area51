@@ -6,7 +6,11 @@ require('conn.php');
  <html >
  <head>
     <title>Home</title>
-
+<style>
+    .span3{
+        padding: inherit;
+    }
+     </style>
  </head>
  <body>
     <!--right-->
