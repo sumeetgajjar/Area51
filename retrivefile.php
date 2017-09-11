@@ -27,8 +27,8 @@ require('conn.php');
           $cont =  $row['content'];
      ?>
      <table>
-         <tr>
-     <div class="span3">
+         <tr> 
+     <div class="span3" align="center">
 			<div class="home-post">
 				<div class="post-image">
 					<img class="max-img" src="img/blog/img1.jpg" alt="" />
@@ -50,6 +50,7 @@ require('conn.php');
 		</div>
              </tr>
          </table>
+     
      <?php $i=$i+1 ?>
      <?php  } ?>
      <a href="#" class="scrollup"><i class="icon-angle-up icon-square icon-bgdark icon-2x"></i></a>

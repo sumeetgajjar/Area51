@@ -1,9 +1,5 @@
 <?php
- $host="localhost";
- $username="root";    			// specify the sever details for mysql
- $password="";
- $database="iadmin";
-$conn= mysqli_connect($host,$username,$password, $database);
+ include 'conn.php';
 $sql = "select * from images_upload";
 $result = mysqli_query($conn,$sql);
 

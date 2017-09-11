@@ -1,15 +1,5 @@
 <?php
-$servername = "localhost";
-$username = "root";
-$password = "";
-$dbname = "iadmin";
-
-// Create connection
-$conn = new mysqli($servername, $username, $password, $dbname);
-// Check connection
-if ($conn->connect_error) {
-    die("Connection failed: " . $conn->connect_error);
-} 
+include 'conn.php'; 
 
 ?>
 <html>
@@ -192,7 +182,7 @@ $result = $conn->query($sql);
              <form action="#" method="post">
         <td width="100" class="a"><?=$row['name']?></td>
         <td width="100" class="a"><input type="submit" name="delimg" value="DELETE"></td>
-             <input type="hidden" value="<?=$row['id']?>" name="id">
+             <input type="hidden" value="<?=$row['id']?>" name="id" onclick="window.location.href=window.location.href">
                  </form>
         </tr>
          <?php } ?>
@@ -231,6 +221,8 @@ if(isset($_POST['delimg'])) {
       //redirect $_SERVER['REQUEST_URI'];
    }
 }
-
-
+function RefreshWindow()
+{
+    window.location.upload(true);
+}
 ?>

@@ -1107,3 +1107,58 @@
     overflow: visible !important;
   }
 }
+@media (min-device-width:600px) {
+    img[data-src-600px] {
+        content: attr(data-src-600px, url);
+    }
+}
+
+@media (min-device-width:800px) {
+    img[data-src-800px] {
+        content: attr(data-src-800px, url);
+    }
+}
+/* Tablet Landscape */
+@media screen and (max-width: 1060px) {
+    #primary { width:67%; }
+    #secondary { width:30%; margin-left:3%;}  
+}
+
+/* Tabled Portrait */
+@media screen and (max-width: 768px) {
+    #primary { width:100%; }
+    #secondary { width:100%; margin:0; border:none; }
+}
+@media screen and (max-width: 480px) {
+   .menu {
+      background: #666;
+   }
+}
+
+.menu ul ul {
+   width: 100%;
+   border: none;
+   border-top: 1px solid #fff;
+   border-bottom: 1px solid #333;
+   background: -moz-linear-gradient(top, #ffffff 0%, #666666 100%); /* FF3.6+ */
+   background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(100%,#666666)); /* Chrome,Safari4+ */
+   background: -webkit-linear-gradient(top, #ffffff 0%,#666666 100%); /* Chrome10+,Safari5.1+ */
+   background: -o-linear-gradient(top, #ffffff 0%,#666666 100%); /* Opera 11.10+ */
+   background: -ms-linear-gradient(top, #ffffff 0%,#666666 100%); /* IE10+ */
+   background: linear-gradient(top, #ffffff 0%,#666666 100%); /* W3C */
+}
+
+.menu ul:first-child {
+   border-top: none;
+}
+
+.menu ul:last-child {
+   border-bottom: none;
+}
+
+.menu ul a {
+   padding: 0;
+   font-size: 1.2em;
+   line-height: 1em;
+   height: 2.8em;
+}

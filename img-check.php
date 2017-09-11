@@ -1,26 +1,26 @@
 <?php
 require('nav.php');
-$host="localhost";
- $username="root";    			// specify the sever details for mysql
- $password="";
- $database="iadmin";
-$conn= mysqli_connect($host,$username,$password, $database);
+?>
+<?php
+require('conn.php');
 ?>
 <html>
 <head>
-    <!-- fancybox CSS library -->
-<link rel="stylesheet" type="text/css" href="css/jquery.fancybox.css">
-<!-- JS library -->
-<script src="//code.jquery.com/jquery-3.1.1.min.js"></script>
-<!-- fancybox JS library -->
-<script src="js/jquery.fancybox.js"></script>
-    
-    <script type="text/javascript">
-    $("[data-fancybox]").fancybox({ });
-</script>
-    <style type="text/css">
+<style type="text/css">
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    border: 1px solid #ddd;
+}
 
-.gallery img {
+th, td {
+    border: none;
+    text-align: left;
+    padding: 8px;
+}
+
+    .gallery img {
     width: 25%;
     height: 10%;
     height: auto;
@@ -48,6 +48,7 @@ th{
     
     <body>
         <br><br>
+        <div style="overflow-x:auto;">
         <table align="center">
             
             <tr >
@@ -58,6 +59,7 @@ th{
              <th><h3> <a href="#ea">  ENERGY AUDITS   </a></h3></th>
                 </tr>
             </table>
+        </div>
         <!-- all-->
         <section id="all" class="section">
     <div class="container" align="center">
@@ -72,8 +74,8 @@ th{
         
         if($query->num_rows > 0){
             while($row = $query->fetch_assoc()){
-                $imageThumbURL = 'upload/'.$row["name"];
-                $imageURL = 'upload/'.$row["name"];
+                $imageThumbURL = 'Upload/'.$row["name"];
+                $imageURL = 'Upload/'.$row["name"];
         ?>
             <a href="<?php echo $imageURL; ?>" data-fancybox="group"  >
                 <img src="<?php echo $imageThumbURL; ?>" height="200px" width="200px" alt="" />
@@ -100,8 +102,8 @@ th{
         
         if($query->num_rows > 0){
             while($row = $query->fetch_assoc()){
-                $imageThumbURL = 'upload/'.$row["name"];
-                $imageURL = 'upload/'.$row["name"];
+                $imageThumbURL = 'Upload/'.$row["name"];
+                $imageURL = 'Upload/'.$row["name"];
         ?>
             <a href="<?php echo $imageURL; ?>" data-fancybox="group"  >
                 <img src="<?php echo $imageThumbURL; ?>" height="200px" width="200px" alt="" />
@@ -127,8 +129,8 @@ th{
         
         if($query->num_rows > 0){
             while($row = $query->fetch_assoc()){
-                $imageThumbURL = 'upload/'.$row["name"];
-                $imageURL = 'upload/'.$row["name"];
+                $imageThumbURL = 'Upload/'.$row["name"];
+                $imageURL = 'Upload/'.$row["name"];
         ?>
             <a href="<?php echo $imageURL; ?>" data-fancybox="group"  >
                 <img src="<?php echo $imageThumbURL; ?>" height="200px" width="200px" alt="" />
@@ -155,8 +157,8 @@ th{
         
         if($query->num_rows > 0){
             while($row = $query->fetch_assoc()){
-                $imageThumbURL = 'upload/'.$row["name"];
-                $imageURL = 'upload/'.$row["name"];
+                $imageThumbURL = 'Upload/'.$row["name"];
+                $imageURL = 'Upload/'.$row["name"];
         ?>
             <a href="<?php echo $imageURL; ?>" data-fancybox="group"  >
                 <img src="<?php echo $imageThumbURL; ?>"  height="200px" width="200px" alt="" />
@@ -183,8 +185,8 @@ th{
         
         if($query->num_rows > 0){
             while($row = $query->fetch_assoc()){
-                $imageThumbURL = 'upload/'.$row["name"];
-                $imageURL = 'upload/'.$row["name"];
+                $imageThumbURL = 'Upload/'.$row["name"];
+                $imageURL = 'Upload/'.$row["name"];
         ?>
             <a href="<?php echo $imageURL; ?>" data-fancybox="group"  >
                 <img src="<?php echo $imageThumbURL; ?>"  height="200px" width="200px" alt="" />
@@ -198,4 +200,4 @@ th{
             </section>
         <a href="#" class="scrollup"><i class="icon-angle-up icon-square icon-bgdark icon-2x"></i></a>
     </body>
-</html>
+</html>f

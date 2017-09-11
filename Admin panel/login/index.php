@@ -110,10 +110,10 @@ else
 <input type='hidden' name='submitted' id='submitted' value='1'/>
 
 <label for='username' >USERNAME:</label>
-<input type='text' name='username' id='username'  maxlength="50" placeholder="username" class="form-control"  value="admin"/>
+<input type='text' name='username' id='username'  maxlength="50" placeholder="username" class="form-control"/>
 
 <label for='password' >PASSWORD:</label>
-<input type='password' name='password' id='password' maxlength="50" placeholder="**********" class="form-control" value="admin"/>
+<input type='password' name='password' id='password' maxlength="50" placeholder="**********" class="form-control"/>
 
 <input type='submit' name='submit' class="btn btn-info "  value="LOGIN" />
 

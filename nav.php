@@ -6,10 +6,13 @@
 <meta name="description" content="">
 <meta name="author" content="">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="HandheldFriendly" content="true">
 <!--<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">-->
 <link href="css/bootstrap-responsive.css" rel="stylesheet">
 <!--<link href="previewcss.css" rel="stylesheet">-->
-    <link href="css/dropdown.css" rel="stylesheet">
+<link href="css/Dropdown.css" rel="stylesheet">
 <link href="css/style.css" rel="stylesheet">
 <link href="css/butpopup.css" rel="stylesheet">
 <link href="css/popupcss.css" rel="stylesheet">
@@ -17,11 +20,11 @@
 <link href="color/default1.css" rel="stylesheet">
 <link rel="shortcut icon" href="img/favicon.ico">
 <link rel="shortcut icon" href="../favicon.ico">
-    <link href="css/servicesstyle.css" rel="stylesheet">
-    	<link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
-	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine">
-	<link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
-
+<link href="css/servicesstyle.css" rel="stylesheet">
+<link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine">
+<link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
+<link rel="stylesheet" type="text/css" href="css/jquery.fancybox.css">
  <style>
      .logo{
            padding: 0px;
@@ -44,6 +47,7 @@
 .logo a:focus {
 	outline: none;
 }
+  
     </style>
 </head>
 <body>
@@ -52,17 +56,20 @@
 		<div class="navbar-inner">
 			<div class="container">
 				<!-- Responsive navbar -->
+				<a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse"><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
+				</a>
 				
-                   <img src="ugs.jpg" width="70px" height="80px" style="float:left;">
-                <h1 class="brand">&nbsp;&nbsp;&nbsp;&nbsp;<a href="index1.php">UNITED GULF SAFETY</a></h1>  
+                <img src="ugs.jpg" width="70px" height="80px" style="float:left;">
+                <p class="brand">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="index.php">UNITED GULF SAFETY</a></p> 
 				<!-- navigation -->
 				<nav class="pull-right nav-collapse collapse">
 				<ul id="menu-main" class="nav">
-                    <li id="services"><a  class="dropdown-toggle" data-toggle="dropdown">Services</a>
+                    <li id="services" class="dropdown"><a  class="dropdown-toggle" data-toggle="dropdown">Services</a>
                     <ul>
 					<li><a  class="dropdown-toggle" data-toggle="dropdown">Training</a>
-                        <ul>
+                        <ul >
                         <li><a href="training.php#basic">Basic Fire Fighting</a></li>
+                        <li><a href="training.php#h2s">H2S & Scaba</a></li>
                         <li><a href="training.php#agt">Authorized gas testing</a></li>
                         <li><a href="training.php#fpwah">Fall Protection work at height</a></li>
                         <li><a href="training.php#fa">First Aid</a></li>
@@ -83,18 +90,18 @@
                     </ul>
                     </li>
                     <li><a  href="img-check.php">Gallery</a></li>
-					<li><a  href="index1.php#blog">Article</a></li>
-                    <li><a  href="index1.php#about">About</a></li>
-					<li><a  href="index1.php#contact">Contact Us</a></li>
+					<li><a  href="index.php#blog">Article</a></li>
+                    <li><a  href="index.php#about">About</a></li>
+					<li><a  href="index.php#contact">Contact Us</a></li>
 					</ul>
 				</nav>
 			</div>
 		</div>
 	</div>
 </div>
-    <script src="js/jquery.js"></script>
-    <script src="js/jquery.flexslider.js"></script>
-    <script src="js/jquery.prettyPhoto.js"></script>
+<script src="js/jquery.js"></script>
+<script src="js/jquery.flexslider.js"></script>
+<script src="js/jquery.prettyPhoto.js"></script>
 <script src="js/jquery.scrollTo.js"></script>
 <script src="js/jquery.nav.js"></script>
 <script src="js/jquery.localscroll-1.2.7-min.js"></script>
@@ -104,14 +111,19 @@
 <script src="js/animate.js"></script>
 <script src="js/custom.js"></script>
 <script src="contactform/contactform.js"></script>
-      	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
-  	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 <script>(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
     (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
     m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
     })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
     ga('create', 'UA-55234356-4', 'auto');
     ga('send', 'pageview');
+</script>
+<script src="//code.jquery.com/jquery-3.1.1.min.js"></script>
+<script src="js/jquery.fancybox.js"></script>
+<script type="text/javascript">
+    $("[data-fancybox]").fancybox({ });
 </script>
 </body>
 </html>

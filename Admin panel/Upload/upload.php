@@ -21,10 +21,8 @@ $connection_ref = $connection->connectToDatabase();
 
 $query = mysqli_query($connection_ref,"INSERT INTO article_upload (name, type, size, content ) ".
 "VALUES ('$fileName', '$fileType', '$fileSize', '$content')");
-
-mysql_query($query) or die('Query Successful'); 
-include '../cancel.php';
-
-echo "<br>File $fileName uploaded<br>";
+echo '<script language="javascript">';
+echo 'alert("File uploaded!!")';
+echo '</script>';
 } 
 ?>
