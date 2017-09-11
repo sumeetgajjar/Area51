@@ -12,7 +12,7 @@
 <!--<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">-->
 <link href="css/bootstrap-responsive.css" rel="stylesheet">
 <!--<link href="previewcss.css" rel="stylesheet">-->
-<link href="css/Dropdown.css" rel="stylesheet">
+<link href="css/dropdown.css" rel="stylesheet">
 <link href="css/style.css" rel="stylesheet">
 <link href="css/butpopup.css" rel="stylesheet">
 <link href="css/popupcss.css" rel="stylesheet">
@@ -59,13 +59,8 @@
 				<a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse"><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
 				</a>
 				
-<<<<<<< HEAD
                 <img src="ugs.jpg" width="70px" height="80px" style="float:left;">
                 <p class="brand">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="index.php">UNITED GULF SAFETY</a></p> 
-=======
-                   <img src="ugs.jpg" width="70px" height="80px" style="float:left;">
-                <h1 class="brand">&nbsp;&nbsp;&nbsp;&nbsp;<a href="index.php">UNITED GULF SAFETY</a></h1>  
->>>>>>> 787398d2b2bf7ff3492ded2daf5e20bb8525d7f7
 				<!-- navigation -->
 				<nav class="pull-right nav-collapse collapse">
 				<ul id="menu-main" class="nav">
