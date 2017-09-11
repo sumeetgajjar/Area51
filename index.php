@@ -84,23 +84,21 @@ require('conn.php');
 ?>
 <!-- section: blog -->
 <section id="blog" class="section green">
-<div class="container">
-    <h4>Our Blog </h4>
+    <div class="container">
+        <h4>Our Blog </h4>
                  <?php
     //execute the SQL query and return records
     $result = mysqli_query($conn,"SELECT * FROM article_upload order by id desc");
-    ?>
-    
-    <table>
-    
- <tr>
-<td>
+    ?><table>
+        <tr>
      <?php
      $i=1;
       while ($row = mysqli_fetch_assoc($result)) { 
-          if( $i<4){
+          if( $i<5){
           $cont =  $row['content'];
      ?>
+
+<td>            
      <div class="span3">
 			<div class="home-post">
 				<div class="post-image">
@@ -121,11 +119,11 @@ require('conn.php');
 				</div>
                  
 			</div>
-		</div>        
+		</div>
+            
      <?php $i=$i+1 ?>
-     <?php  } } ?>
-    </td> </tr>
-        </table>
+     <?php  } } ?>   
+    </td>        </tr></table>
 	
         
        <!-- <a href="article.html"><button class="w3-button w3-xlarge w3-circle w3-teal" style="float:right;">+</button></a>-->
@@ -204,11 +202,9 @@ require('conn.php');
 <div class="container">
 	<h4>Get in Touch</h4>
 	<p>
-        
-	       Office : 20-22 Wenlock Road, London, England N1 7GU, U.K.<br>
-          
-           E-mail : admin@unitedgulfsafety.com
-    
+	       Address
+           Phone No
+           E-mail
     </p>
 	<div class="blankdivider30">
 	</div>
@@ -255,6 +251,9 @@ require('conn.php');
 	<div class="row">
 		<div class="span6 offset3">
                 <a href="#"><i class="icon-circled icon-bgdark icon-instagram icon-2x"></i></a>
+				<a href="#"><i class="icon-circled icon-bgdark icon-twitter icon-2x"></i></a>
+				<a href="#"><i class="icon-circled icon-bgdark icon-dribbble icon-2x"></i></a>
+				<a href="#"><i class="icon-circled icon-bgdark icon-pinterest icon-2x"></i></a>
 			<p class="copyright">
 				<center>&copy; UnitedGulfSafety All rights reserved.</center>
 			</p>
@@ -263,7 +262,7 @@ require('conn.php');
 </div>
 <!-- ./container -->
 </footer>
-<a href="#" class="scrollup"><i class="icon-angle-up icon-square icon-bgdark icon-2x"></i></a>
+<!--<a href="#" class="scrollup"><i class="icon-angle-up icon-square icon-bgdark icon-2x"></i></a>-->
 
 
 
