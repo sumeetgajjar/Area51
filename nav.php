@@ -25,30 +25,6 @@
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine">
 <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
 <link rel="stylesheet" type="text/css" href="css/jquery.fancybox.css">
- <style>
-     .logo{
-           padding: 0px;
-  margin: 0px;
-  text-align: center;
-  display:inline-block;
-  vertical-align:top;
-         color: #fff;
-	font-size: 2.5em;
-         margin-top: auto;
-         border-right: auto;
-     }
-     .logo a:hover {
-	text-decoration: none;
- transition: color .15s linear;
- -webkit-transition: color .15s linear;
- -moz-transition: color .15s linear;
-         color: #16A085  ;
-}
-.logo a:focus {
-	outline: none;
-}
-  
-    </style>
 </head>
 <body>
 <div class="navbar-wrapper">
@@ -59,8 +35,9 @@
 				<a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse"><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
 				</a>
 				
-                <img src="ugs.jpg" width="70px" height="80px" style="float:left;">
-                <p class="brand">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="index.php">UNITED GULF SAFETY</a></p> 
+                <a href="index.php">   <img src="ugs.jpg" width="70px" height="80px" style="float:left;">
+              <img src="logo1.png"  width="450px" height="80px"style="float:left;"></a>
+                 
 				<!-- navigation -->
 				<nav class="pull-right nav-collapse collapse">
 				<ul id="menu-main" class="nav">
@@ -112,7 +89,7 @@
 <script src="js/custom.js"></script>
 <script src="contactform/contactform.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
-<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
 <script>(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
     (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
     m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)

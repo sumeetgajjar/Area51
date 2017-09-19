@@ -47,6 +47,8 @@ require('nav.php');
           .container{
               padding: inherit;
           }
+          
+          
       </style>
     </head>
       <body>
@@ -254,7 +256,7 @@ require('conn.php');
 <div class="container">
 	<div class="row">
 		<div class="span6 offset3">
-                <a href="#"><i class="icon-circled icon-bgdark icon-instagram icon-2x"></i></a>
+                <a href="#"><i class="icon-circled icon-bgdark icon-facebook icon-2x"></i></a>
 			<p class="copyright">
 				<center>&copy; UnitedGulfSafety All rights reserved.</center>
 			</p>

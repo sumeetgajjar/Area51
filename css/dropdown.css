@@ -73,7 +73,7 @@ ul:after { clear: both; }
      }
 
  /*to display dropdown in mobile responsive*/    
- @media only screen and (max-device-width: 600px){
+@media only screen and (max-device-width: 600px){
      
        .nav
         {
