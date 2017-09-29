@@ -20,20 +20,13 @@ th, td {
     padding: 8px;
 }
 
-    .gallery img {
-    width: 25%;
-    height: 10%;
-    height: auto;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: .3s;
-}
+
  section.section {
 	padding: 170px 0 170px;
 }
-        table{
-             background-color: #16A085;
-        }
+ table{
+     background-color: #16A085;
+}
 tr{
     padding-right: 50px;
    
@@ -89,11 +82,10 @@ th{
             </section>
         <!--drop survey-->
              <section id="ds" class="section">
-    <div class="container">
+    <div class="container" align="center">
         <h4>DROP SURVEY</h4>
       <div class="col-sm-12">
-		<div class="span10 offset1">
-    <div class="gallery">
+		
         <?php
         //Include database configuration file
         
@@ -105,22 +97,18 @@ th{
                 $imageThumbURL = 'Upload/'.$row["name"];
                 $imageURL = 'Upload/'.$row["name"];
         ?>
-            <a href="<?php echo $imageURL; ?>" data-fancybox="group"  >
                 <img src="<?php echo $imageThumbURL; ?>" height="200px" width="200px" alt="" />
-            </a>
         <?php }
         } ?>
     </div>
-          </div></div></div>         
+          </div>      
             </section>
         
         <!--rig inspection-->
             <section id="ri" class="section">
-    <div class="container">
+    <div class="container" align="center">
         <h4>RIG INSPECTION</h4>
         <div class="col-sm-12">
-		<div class="span10 offset1">
-    <div class="gallery">
         <?php
         //Include database configuration file
         
@@ -132,23 +120,17 @@ th{
                 $imageThumbURL = 'Upload/'.$row["name"];
                 $imageURL = 'Upload/'.$row["name"];
         ?>
-            <a href="<?php echo $imageURL; ?>" data-fancybox="group"  >
                 <img src="<?php echo $imageThumbURL; ?>" height="200px" width="200px" alt="" />
-            </a>
         <?php }
         } ?>
     </div>
 </div>
-        </div>
-            </div>
             </section>
         <!--electical safety audit-->
             <section id="es" class="section">
-    <div class="container">
+    <div class="container" align="center">
         <h4>ELECTRICAL SAFETY AUDIT</h4>
         <div class="col-sm-12">
-		<div class="span10 offset1">
-    <div class="gallery">
         <?php
         //Include database configuration file
         
@@ -160,23 +142,17 @@ th{
                 $imageThumbURL = 'Upload/'.$row["name"];
                 $imageURL = 'Upload/'.$row["name"];
         ?>
-            <a href="<?php echo $imageURL; ?>" data-fancybox="group"  >
                 <img src="<?php echo $imageThumbURL; ?>"  height="200px" width="200px" alt="" />
-            </a>
         <?php }
         } ?>
-    </div>
-</div>
         </div>
             </div>
             </section>
         <!--energy audit-->
             <section id="ea" class="section">
-    <div class="container">
+    <div class="container" align="center">
         <h4>ENERGY AUDIT</h4>
         <div class="col-sm-12">
-		<div class="span10 offset1">
-    <div class="gallery">
         <?php
         //Include database configuration file
         
@@ -188,16 +164,12 @@ th{
                 $imageThumbURL = 'Upload/'.$row["name"];
                 $imageURL = 'Upload/'.$row["name"];
         ?>
-            <a href="<?php echo $imageURL; ?>" data-fancybox="group"  >
                 <img src="<?php echo $imageThumbURL; ?>"  height="200px" width="200px" alt="" />
-            </a>
         <?php }
         } ?>
     </div>
 </div>
-        </div>
-            </div>
             </section>
         <a href="#" class="scrollup"><i class="icon-angle-up icon-square icon-bgdark icon-2x"></i></a>
     </body>
-</html>f
+</html>
